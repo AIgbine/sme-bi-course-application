@@ -18,27 +18,33 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*Carry out running total calculations on time-series data*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+*We have the data of office supplies for Sapphire Limited from 2020 till 2021. To find out the total amount spent on supplies from 2020 to at any given time, you will find the total running calculation at the specified date*
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Drag the “Order Date” and "Total" into the “Columns” and "Rows" section in Tableau visualization area.
+- From the “Show me” tab, select the line chart if not automatically selected
+- Drill down your visualization into months using continuous date format
+- Duplicate “Sum(Total)” in the Row section
+- From the "quick calculation option", select "Running Total"
+
+
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*Using the line chart, what is the “Running sum of Total” in December 2021?*
+
+*9258*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1440" alt="Ex-1-sol" src="https://user-images.githubusercontent.com/35337868/211958513-84978791-f7a3-4355-b6e3-9b9a7d12416f.png">
+
 
 ## 2nd VM Exercise
 
@@ -53,25 +59,28 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*Smoothen data using moving averages*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+*3 - The moving average can be used to identify downward and upward trend in data. A rising moving average indicates an increase in quantity (usually price) while a declining moving average indicates a drop in quantity. Determine if the amount spent on company supplies has increased, reduced or remained the same over time*
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
+- Duplicate the “Sum (Total)” again
+- Apply the moving average calculation from the quick calculation menu
+- Edit Table Calculation: summarise values using the moving average for 2 previous values and 2 next values
 - ...
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*From the moving average, has the price spent on office supplies increased or reduced over time? (look at the trend of the moving average)*
+
+*Increased*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+
+<img width="1440" alt="Screenshot 2023-01-12 at 02 54 45" src="https://user-images.githubusercontent.com/35337868/211960143-5d00b7b3-af09-4ec1-926a-1f464580e9fc.png">
 
