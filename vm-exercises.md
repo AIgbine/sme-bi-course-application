@@ -75,7 +75,7 @@
 - ...
 
 #### Exercise question:
-*From the moving average, has the price spent on office supplies increased or reduced over time? (look at the trend of the moving average)*
+*From the moving average, has the price spent on office supplies increased or reduced over time? (apply trendlines to see the general trend of the moving average)*
 
 *Increased*
 
